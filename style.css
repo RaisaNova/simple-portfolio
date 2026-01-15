@@ -31,6 +31,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px solid #e5e7eb;
 }
 
 .hero span {
@@ -39,6 +40,8 @@ body {
 
 .section {
   padding: 60px 40px;
+    border-bottom: 2px solid #e5e7eb;
+
 }
 
 .skills-container span {
@@ -48,6 +51,7 @@ body {
   border-radius: 20px;
   margin: 5px;
   transition: transform 0.2s;
+  
 }
 
 .skills-container span:hover {
@@ -114,5 +118,4 @@ font-size: 1.5rem;
 .skills-container span {
 font-size: 0.85rem;
 padding: 6px 12px;
-}
 }
