@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raisa Nova | Portfolio</title>
+
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+
   <header class="navbar">
-    <h1 class="logo">MyPortfolio</h1>
+    <h1 class="logo">Raisa</h1>
     <nav>
       <a href="#home">Home</a>
       <a href="#about">About</a>
@@ -19,13 +23,23 @@
   </header>
 
   <section id="home" class="hero">
-    <h2>Hi, I'm <span>Raisa Nova</span></h2>
-    <p>Fullstack Devloper </p>
+    <div class="hero-text">
+      <h2>Hi, I'm <span>Raisa Nova</span></h2>
+      <h3 class="typing"></h3>
+      <div class="hero-btn">
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="#" class="btn-outline">Download CV</a>
+      </div>
+    </div>
+
+    <!-- <div class="hero-img">
+      <img src="https://i.imgur.com/7k12EPD.png" alt="Profile">
+    </div> -->
   </section>
 
   <section id="about" class="section">
     <h2>About Me</h2>
-    <p>Saya adalah siswa RPL yang tertarik pada pengembangan website, baik frontend maupun backend.</p>
+    <p>Saya adalah siswa SMK jurusan Rekayasa Perangkat Lunak yang memiliki minat besar dalam pengembangan aplikasi dan teknologi. Terbiasa belajar mandiri, disiplin, dan cepat memahami hal baru. Saat ini fokus memperdalam kemampuan pemrograman dan siap berkontribusi dalam lingkungan kerja nyata sebagai bagian dari pengembangan diri dan pengalaman profesional</p>
   </section>
 
   <section id="skills" class="section">
@@ -46,26 +60,24 @@
       <div class="card">
         <h3>Web Rumah Sakit</h3>
         <p>Aplikasi manajemen rumah sakit berbasis Laravel.</p>
-        <p><b>Tech:</b> Laravel, MySQL</p>
       </div>
       <div class="card">
         <h3>Web Clone</h3>
         <p>Clone website menggunakan HTML, CSS, dan JS.</p>
-        <p><b>Tech:</b> HTML, CSS, JS</p>
       </div>
     </div>
   </section>
 
   <section id="contact" class="section">
     <h2>Contact</h2>
-    <p>Email: yourmail@gmail.com</p>
-    <p>WhatsApp: 08xxxxxxxxxx</p>
+    <p>Email: raisanova241127@gmail.com</p>
   </section>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/628164530342" class="wa-float" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-<script>
-// nanti kita isi animasi atau interaksi di sini
-</script>
